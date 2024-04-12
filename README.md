@@ -44,7 +44,7 @@ How to access this project in your local machine.
 
 # Contact details.
 
-### Github.com/Abrahamkinuthia4723
+github.com/Abrahamkinuthia4723
 
 
 
