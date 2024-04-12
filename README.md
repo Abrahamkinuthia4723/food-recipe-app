@@ -1,4 +1,4 @@
-# FOOD RECIPE APP
+# FOOD RECIPE APP.
 
 ## By: Kinuthia Abraham Ngugi.
 
@@ -16,7 +16,7 @@
 
 ### Overall, this project is a useful tool for anyone who wants to find meals based on the ingredients they have on hand. It has a simple and intuitive interface, and it uses a popular API to fetch meal data. The application is well-designed and easy to use, making it a great resource for anyone who loves to cook!
 
-# Project setup.
+# Project setup instructions.
 
 How to access this project in your local machine.
 
@@ -30,7 +30,23 @@ How to access this project in your local machine.
 
 ### 5. Finally, enter into your vs code by writing code . in your terminal and view the code.
 
-## note: This project belongs to Abraham Ngugi. even though you are allowed to view the code, you are prohibited from passing this code as your own.
+## note: This project belongs to Abraham Ngugi. even though you are allowed to view the code, you are prohibited from passing this code on as your own.
+
+# Technologies used.
+
+### 1. Html.
+
+### 2. css
+
+### 3. Javascript.
+
+### 4. Github.
+
+# Contact details.
+
+### Github.com/Abrahamkinuthia4723
+
+
 
 
 ￼
