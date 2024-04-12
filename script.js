@@ -1,20 +1,24 @@
+// Selecting elements from the DOM
 const searchBtn = document.getElementById('search-btn');
 const mealList = document.getElementById('meal');
 const mealDetailsContent = document.querySelector('.meal-details-content');
 const recipeCloseBtn = document.getElementById('recipe-close-btn');
 
-// event listeners
+// Adding event listeners to the buttons
 searchBtn.addEventListener('click', getMealList);
 mealList.addEventListener('click', getMealRecipe);
 recipeCloseBtn.addEventListener('click', () => {
     mealDetailsContent.parentElement.classList.remove('showRecipe');
 });
 
+/**
+ * Fetches the meal list based on the search input and displays it on the page.
+ */
 function getMealList(){
     let searchInputTxt = document.getElementById('search-input').value.trim();
     fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchInputTxt}`)
-    .then(response => response.json())
-    .then(data => {
+   .then(response => response.json())
+   .then(data => {
         let html = "";
         if(data.meals){
             data.meals.forEach(meal => {
@@ -40,16 +44,24 @@ function getMealList(){
     });
 }
 
+/**
+ * Fetches the meal recipe based on the clicked meal item and displays it in a modal.
+ * @param {Event} e - The click event.
+ */
 function getMealRecipe(e){
     e.preventDefault();
     if(e.target.classList.contains('recipe-btn')){
         let mealItem = e.target.parentElement.parentElement;
         fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealItem.dataset.id}`)
-        .then(response => response.json())
-        .then(data => mealRecipeModal(data.meals));
+       .then(response => response.json())
+       .then(data => mealRecipeModal(data.meals));
     }
 }
 
+/**
+ * Displays the meal recipe in a modal.
+ * @param {Array} meal - The meal object.
+ */
 function mealRecipeModal(meal){
     console.log(meal);
     meal = meal[0];
@@ -70,4 +82,3 @@ function mealRecipeModal(meal){
     mealDetailsContent.innerHTML = html;
     mealDetailsContent.parentElement.classList.add('showRecipe');
 }
-
