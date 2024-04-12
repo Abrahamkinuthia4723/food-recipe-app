@@ -46,6 +46,12 @@ How to access this project in your local machine.
 
 github.com/Abrahamkinuthia4723
 
+# licence.
+
+### The content of this site is licensed under the MIT license
+### Copyright (c) 2018.
+
+
 
 
 
