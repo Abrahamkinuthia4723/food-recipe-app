@@ -2,7 +2,7 @@
 
 ## By: Kinuthia Abraham Ngugi.
 
-## Project description.
+# Project description.
 
 ### This project is a web application called "Find Meal For Your Ingredients." The main purpose of this application is to help users find meals based on the ingredients they have on hand. The application has a clean and user-friendly interface, with a search bar that allows users to input an ingredient and search for meals that contain it.
 
@@ -16,18 +16,22 @@
 
 ### Overall, this project is a useful tool for anyone who wants to find meals based on the ingredients they have on hand. It has a simple and intuitive interface, and it uses a popular API to fetch meal data. The application is well-designed and easy to use, making it a great resource for anyone who loves to cook!
 
-## Project setup.
+# Project setup.
 
-### 1. Create a new respiratory by the name 'food-recipe app'.
+How to access this project in your local machine.
 
-### 2. copy the SSH link after tapping the code button.
+### 1. Fork this respiratory.
 
-### 3. Open your local terminal.
+### 2. Open your local terminal.
 
-### 4. Git clone the respiratory into your local terminal.
+### 3. Git clone the respiratory into your local terminal.
 
-### 5. cd into foood-recipe-app folder.
+### 4. cd into foood-recipe-app folder.
 
-### 6. Finally, enter into your vs code by writing code . in your terminal and start writing the code for your food-recipe app.
+### 5. Finally, enter into your vs code by writing code . in your terminal and view the code.
+
+## note: This project belongs to Abraham Ngugi. even though you are allowed to view the code, you are prohibited from passing this code as your own.
+
+
 ￼
 ￼
