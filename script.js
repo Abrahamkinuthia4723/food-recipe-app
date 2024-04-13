@@ -14,6 +14,7 @@ recipeCloseBtn.addEventListener('click', () => {
 /**
  * Fetches the meal list based on the search input and displays it on the page.
  */
+
 function getMealList(){
     let searchInputTxt = document.getElementById('search-input').value.trim();
     fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchInputTxt}`)
