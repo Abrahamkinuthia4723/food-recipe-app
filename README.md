@@ -6,7 +6,6 @@
 
 # Click here to go directly to my webpage.
 
- https://abrahamkinuthia4723.github.io/food-recipe-app/
 
 ### This project is a web application called "Find Meal For Your Ingredients." The main purpose of this application is to help users find meals based on the ingredients they have on hand. The application has a clean and user-friendly interface, with a search bar that allows users to input an ingredient and search for meals that contain it.
 
